@@ -13,6 +13,7 @@ dine: Parser Combinator Library
 
 .. image:: https://img.shields.io/badge/python%20version-%3E=3.10-02ad93.svg?style=flat-square
     :alt: Python Version
+    :target: https://www.python.org/
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :alt: Code Style
@@ -21,8 +22,6 @@ dine: Parser Combinator Library
 .. end-inclusion-marker-badges
 
 
-Content
---------------------
 .. contents::
 
 
