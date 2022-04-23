@@ -22,7 +22,10 @@ dine: Parser Combinator Library
 .. end-inclusion-marker-badges
 
 
+Contents
+------------------------
 .. contents::
+   :local:
 
 
 .. start-inclusion-marker-readme-content
