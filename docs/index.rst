@@ -10,48 +10,8 @@ Welcome to dine's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-API Doc
-----------
+   modules
 
-dine.exceptions module
-----------------------
-
-.. automodule:: dine.exceptions
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-dine.parser module
-------------------
-
-.. automodule:: dine.parser
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-dine.result module
-------------------
-
-.. automodule:: dine.result
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-dine.stream module
-------------------
-
-.. automodule:: dine.stream
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-Module contents
----------------
-
-.. automodule:: dine
-   :members:
-   :undoc-members:
-   :show-inheritance:
 
 
 Indices and tables
