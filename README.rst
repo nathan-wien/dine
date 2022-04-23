@@ -27,14 +27,11 @@ Contents
 .. contents:: This README includes the following sections
 
 
-.. start-inclusion-marker-readme-content
-
 Introduction
 --------------------
 
 **dine** is a Parser Combinator Library targeting Python >=3.10.
 
-.. end-inclusion-marker-readme-content
 
 Development
 --------------------

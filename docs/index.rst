@@ -7,14 +7,11 @@ dine - Parser Combinator Library
   :end-before: end-inclusion-marker-badges
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+Introduction
+================================
 
+dine is a Parser Combinator Library targeting Python >=3.10.
 
-.. include:: ../README.rst
-  :start-after: start-inclusion-marker-readme-content
-  :end-before: end-inclusion-marker-readme-content
 
 
    modules
