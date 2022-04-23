@@ -25,6 +25,7 @@ dine: Parser Combinator Library
 Contents
 ------------------------
 .. contents::
+    :local:
 
 
 .. start-inclusion-marker-readme-content
