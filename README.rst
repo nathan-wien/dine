@@ -23,7 +23,7 @@ dine: Parser Combinator Library
 
 Content
 --------------------
-.. contents
+.. contents::
 
 
 .. start-inclusion-marker-readme-content
