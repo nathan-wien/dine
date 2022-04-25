@@ -12,9 +12,22 @@
 API Doc
 --------------------
 
-.. toctree::
+dine.parser
+~~~~~~~~~~~~~~~~~~~~
 
-   modules
+.. automodule:: dine.parser
+    :members:
+
+dine.result
+~~~~~~~~~~~~~~~~~~~~
+
+.. automodule:: dine.result
+    :members:
+
+dine.stream
+~~~~~~~~~~~~~~~~~~~~
+.. automodule:: dine.stream
+    :members:
 
 
 Indices and tables
