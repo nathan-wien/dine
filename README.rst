@@ -64,27 +64,27 @@ Usage
 Basics
 ^^^^^^^^^^^^^^
 
-Using the `dine.parser.Parser` class, you can create parsing functors. Functors are object that can be called like functions.
+Using the ``dine.parser.Parser`` class, you can create parsing functors. Functors are object that can be called like functions.
 
 When called, each parsing functor (or parser for short) can accept either:
 
-* a builtin `str` object,  or
-* a `dine.parser.Stream` object.
+* a builtin ``str`` object,  or
+* a ``dine.parser.Stream`` object.
 
-The parser then returns an object of base class `dine.result.ParseResult`, which can either be:
+The parser then returns an object of base class ``dine.result.ParseResult``, which can either be:
 
-* A `ParseSuccess(loc, val, rs)` object if the parser parses successfully, where:
+* A ``ParseSuccess(loc, val, rs)`` object if the parser parses successfully, where:
 
-  * `loc: dine.stream.Location` is the parsed location (line and column) in the initial stream,
-  * `val` is the parsed value, and
-  * `rs: dine.stream.Stream` is the remaining stream after applying the parser.
+  * ``loc: dine.stream.Location`` is the parsed location (line and column) in the initial stream,
+  * ``val`` is the parsed value, and
+  * ``rs: dine.stream.Stream`` is the remaining stream after applying the parser.
 
-* A `ParseFailure(loc, label, msg)` object if the parser fails to parse, where:
+* A ``ParseFailure(loc, label, msg)`` object if the parser fails to parse, where:
 
 
-  * `loc: dine.stream.Location` is the location (line and column) in the initial stream where the parser (first) fails to parse,
-  * `label: str` the label of the parser that fails to parse, and
-  * `msg: str` is the error message.
+  * ``loc: dine.stream.Location`` is the location (line and column) in the initial stream where the parser (first) fails to parse,
+  * ``label: str`` the label of the parser that fails to parse, and
+  * ``msg: str`` is the error message.
 
 
 .. code-block:: python
@@ -127,7 +127,7 @@ Combinators
 
 It is not a parser combinator library without the ability of combining parsers together to create more complex parsers.
 
-The following shows some combinators that `dine` offers. For an exhaustive list of combinator, please refer to the `documentation <https://dine.readthedocs.io/en/latest/index.html>`_.
+The following shows some combinators that ``dine`` offers. For an exhaustive list of combinator, please refer to the `documentation <https://dine.readthedocs.io/en/latest/index.html>`_.
 
 
 .. code-block:: python
@@ -258,7 +258,7 @@ FAQ/You may ask
 
 * Why is the minimum python version compatible with this library is 3.10?
 
-  * The implementation of this library makes heavy use of the structural pattern matching (a.k.a. `match` statement) feature, which is only available on python 3.10 or later.
+  * The implementation of this library makes heavy use of the structural pattern matching (a.k.a. ``match`` statement) feature, which is only available on python 3.10 or later.
 
 
 Acknowledgements/Inspirations
