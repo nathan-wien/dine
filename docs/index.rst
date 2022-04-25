@@ -8,13 +8,17 @@
   :start-after: start-inclusion-marker-readme-content
   :end-before: end-inclusion-marker-readme-content
 
+
+API Doc
+--------------------
+
 .. toctree::
 
    modules
 
 
 Indices and tables
-==================
+--------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
