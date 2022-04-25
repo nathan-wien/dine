@@ -41,7 +41,7 @@ class ParseSuccess(ParseResult[A]):
                 return False
 
     def __repr__(self):
-        return f"ParseSuccess({repr(self.val)},Stream({str(self.rs)})))"
+        return f"ParseSuccess({repr(self.val)},Stream({str(self.rs)}))"
 
 
 class ParseFailure(ParseResult):
