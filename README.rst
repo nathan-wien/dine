@@ -54,6 +54,7 @@ Installation
 At the moment, the project has not been published to `pypi <https://pypi.org/>`_. You can instead install it directly from github as follows:
 
 .. code-block:: console
+
     $ python -m pip install git+https://github.com/nathan-wien/dine.git
 
 
@@ -87,6 +88,7 @@ The parser then returns an object of base class `dine.result.ParseResult`, which
 
 
 .. code-block:: python
+
     >>> from dine.parser import Parser
 
     # functor that parses a digit
@@ -129,6 +131,7 @@ The following shows some combinators that `dine` offers. For an exhaustive list 
 
 
 .. code-block:: python
+
     >>> from dine.parser import Parser
 
     # apply a parser after the other
@@ -261,7 +264,7 @@ FAQ/You may ask
 Acknowledgements/Inspirations
 --------------------
 
-* The `COMP4403 <https://my.uq.edu.au/programs-courses/course.html?course_code=COMP4403>` course (Compilers and Interpreters) at the University of Queensland.
+* The `COMP4403 <https://my.uq.edu.au/programs-courses/course.html?course_code=COMP4403>`_ course (Compilers and Interpreters) at the University of Queensland.
 * Scott Wlaschin's `talk on parser combinator <https://youtu.be/RDalzi7mhdY>`_ and `his blog posts <https://fsharpforfunandprofit.com/series/understanding-parser-combinators/>`_ on the topic.
 * Max Bo's `Parser Combinator Talk <https://youtu.be/RDalzi7mhdY>`_ at UQCS.
 
