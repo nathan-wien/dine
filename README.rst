@@ -262,7 +262,7 @@ FAQ/You may ask
 
 
 Acknowledgements/Inspirations
---------------------
+---------------------------------
 
 * The `COMP4403 <https://my.uq.edu.au/programs-courses/course.html?course_code=COMP4403>`_ course (Compilers and Interpreters) at the University of Queensland.
 * Scott Wlaschin's `talk on parser combinator <https://youtu.be/RDalzi7mhdY>`_ and `his blog posts <https://fsharpforfunandprofit.com/series/understanding-parser-combinators/>`_ on the topic.
