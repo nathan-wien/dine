@@ -24,6 +24,12 @@ dine: Parser Combinator Library
     :alt: Code Style
     :target: https://github.com/psf/black
 
+
+Introduction
+--------------------
+
+**dine** is a `Parser Combinator <https://en.wikipedia.org/wiki/Parser_combinator>`_ Library targeting Python >=3.10.
+
 .. end-inclusion-marker-header
 
 
@@ -32,11 +38,6 @@ Contents
 .. contents:: This README includes the following sections
 
 .. start-inclusion-marker-readme-content
-
-Introduction
---------------------
-
-**dine** is a Parser Combinator Library targeting Python >=3.10.
 
 
 Quick Start
