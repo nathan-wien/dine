@@ -1,9 +1,6 @@
 dine package
 ============
 
-Submodules
-----------
-
 dine.exceptions module
 ----------------------
 
@@ -32,14 +29,6 @@ dine.stream module
 ------------------
 
 .. automodule:: dine.stream
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-Module contents
----------------
-
-.. automodule:: dine
    :members:
    :undoc-members:
    :show-inheritance:
